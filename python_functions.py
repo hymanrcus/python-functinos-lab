@@ -8,5 +8,14 @@ def sum_to(n):
     i+= 1
   return sum
 
-print(sum_to(10))
+# print(sum_to(10))
 
+# EX 2
+
+
+def largest(nums):
+  sorted_nums =sorted(nums)
+  return sorted_nums[-1]
+
+
+print(largest([10, 4, 2, 231, 91, 54]))  # returns 231
