@@ -27,3 +27,14 @@ def occurences(Str1, Str2):
   return Str1.count(Str2)
 
 print(occurences('HAHAHHHHAAAHHHAHAHAAA', 'AAA'))
+
+
+# EX 4
+
+def product(*args):
+  res = 1
+  for arg in args:
+    res = res * arg
+  return res
+
+print(product(4, 0.5, 5)) 
