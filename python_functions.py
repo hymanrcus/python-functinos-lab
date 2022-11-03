@@ -18,4 +18,12 @@ def largest(nums):
   return sorted_nums[-1]
 
 
-print(largest([10, 4, 2, 231, 91, 54]))  # returns 231
+# print(largest([10, 4, 2, 231, 91, 54])) 
+
+
+# EX 3
+
+def occurences(Str1, Str2):
+  return Str1.count(Str2)
+
+print(occurences('HAHAHHHHAAAHHHAHAHAAA', 'AAA'))
